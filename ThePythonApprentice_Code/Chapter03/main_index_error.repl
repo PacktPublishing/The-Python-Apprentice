@@ -1,0 +1,12 @@
+$ python3
+Python 3.5.0 (default, Nov  3 2015, 13:17:02)
+[GCC 4.2.1 Compatible Apple LLVM 6.1.0 (clang-602.0.53)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from words import *
+>>> main()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/Users/sixtynorth/projects/sixty-north/the-python-apprentice/manuscript/code/pyfund/words.py", line 21, in main
+    url = sys.argv[1]
+IndexError: list index out of range
+>>>

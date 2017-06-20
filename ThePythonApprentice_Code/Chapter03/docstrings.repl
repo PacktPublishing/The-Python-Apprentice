@@ -1,0 +1,19 @@
+$ python3
+Python 3.5.0 (default, Nov  3 2015, 13:17:02)
+[GCC 4.2.1 Compatible Apple LLVM 6.1.0 (clang-602.0.53)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from words import *
+>>> help(fetch_words)
+
+Help on function fetch_words in module words:
+
+fetch_words(url)
+    Fetch a list of words from a URL.
+
+    Args:
+        url: The URL of a UTF-8 text document.
+
+    Returns:
+        A list of strings containing the words from
+        the document.
+(END)

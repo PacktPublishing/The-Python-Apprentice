@@ -1,0 +1,7 @@
+>>> help(math.factorial)
+Help on built-in function factorial in module math:
+
+factorial(...)
+    factorial(x) -> Integral
+
+    Find x!. Raise a ValueError if x is negative or non-integral.
